@@ -1,0 +1,28 @@
+html{
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.container{
+	max-width: 1170px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+.header{
+	background-image: url('../images/bg-header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
