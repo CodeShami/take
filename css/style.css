@@ -12,8 +12,32 @@ body{
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
+	text-align: justify;
 	color: #959595;
 }
+
+body h3{
+	font-weight: 300;
+	font-size: 13px;
+	color: #2e3b4e;
+}
+
+body h4{
+	font-weight: 600;
+	font-size: 13px;
+	color: #67676d;
+}
+
+.main__title{
+	font-size: 35px;
+	font-weight: 300;
+	color: #222626;
+}
+
+
+
+
+
 
 .container{
 	max-width: 1170px;
@@ -28,6 +52,7 @@ body{
 	background-position: -240px top;
 	width: 100%;
 	min-height: 100vh;
+	margin-bottom: 200px;
 }
 
 .header__inner{
@@ -53,6 +78,10 @@ body{
 	width: 450px;
 	min-height: 400px;
 }
+.header__subtitle{
+	overflow: hidden;
+	max-height: 40px;
+}
 .header__subtitle h5{
 	font-size: 13px;
 	color: #fff;
@@ -66,3 +95,6 @@ position: relative;
 	top: -690px;
 	right: 0;
 }
+
+
+
