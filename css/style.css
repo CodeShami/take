@@ -195,6 +195,7 @@ background-color: #bd8cbf;
 	position: absolute;
 	right: 50px;
 	bottom: 50px;
+	transition: 0.7s;
 }
 .fa:hover{
 	font-size: 22px;
