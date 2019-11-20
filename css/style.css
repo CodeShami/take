@@ -14,6 +14,7 @@ body{
 	line-height: 24px;
 	text-align: justify;
 	color: #959595;
+	overflow: hidden;
 }
 
 body h3{
@@ -123,13 +124,71 @@ position: relative;
 
 .main__grid--box {
 	display: grid;
+	color: #fff;
+	font-size: 13px;
+display: grid;
+	grid-template-columns: 400px 400px 400px 400px;
+	grid-template-rows: 280px 280px;
+	width: 1485px;
+
+
 }
+.main__grid--box a{
+font-size: 14px;
+color: #fff;
+text-decoration: none;
+}
+.main__grid-text{
+	margin-bottom: 40px;
+}
+
 .main__grid-item {
+padding: 50px;
+}
+
+.item-1{
 background-color: #f5989d;
-margin: 5px;
 }
-.main__grid-text {
+.item-2{
+background-color: #615f7d;
 }
+.item-3{
+background-image: url('../images/gridblock-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.item-3:hover{
+	background-image: url('../images/gridblock-2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.item-4{
+background-color: #bd8cbf;
+
+}
+.item-5{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	background-image: url('../images/gridblock-4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.item-5:hover{
+	background-image: url('../images/gridblock-3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.item-6{
+background-color: #82ca9c;
+}
+.item-7{
+	background-image: url('../images/gridblock-5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
 
 
 
@@ -293,9 +352,80 @@ margin: 5px;
 .footer{
 	width: 100%;
 	height: 630px;
+	font-size: 13px;
 	background-color: #192431;
 	color: #f6f7fa;
+	padding: 130px 0 150px;
 }
 .footer__inner{
 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer__title h4{
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #f6f7fa;
+}
+
+.footer__left-block{
+	width: 575px;
+
+}
+.footer__row{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 70px;
+}
+.footer__column{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #f6f7fa;
+	margin: 3px 0;
+	cursor: pointer;
+	display: block;
+}
+
+.form__reletive{
+	width: 470px;
+	height: 58px;
+	position: relative;
+}
+
+.footer__form input.input__text{
+	width: 470px;
+	height: 58px;
+border: none;
+border-radius: 3px;
+}
+.footer__button{
+width: 70px;
+height: 58px;
+background-color: #82ca9c;
+background-image: url('../images/tick.png');
+background-repeat: no-repeat;
+background-position: center center;
+border: none;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+	position: absolute;
+	right: 0;
+	top: 0;
+cursor: pointer;
+
+}
+
+.footer__sub-title{
+	font-size: 12px;
+	line-height: 18px;
+	color: #57697f;
+	margin-top: 18px;
 }
