@@ -52,6 +52,17 @@ color: #222626;
 
 }
 
+.main__link a{
+font-size: 14px;
+color: #fff;
+text-decoration: none;
+cursor: pointer;
+}
+
+
+
+
+
 .header{
 	background-image: url('../images/bg-header.jpg');
 	background-repeat: no-repeat;
@@ -157,6 +168,8 @@ background-color: #615f7d;
 background-image: url('../images/gridblock-1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-size: cover;
+	position: relative;
 }
 .item-3:hover{
 	background-image: url('../images/gridblock-2.jpg');
@@ -173,6 +186,15 @@ background-color: #bd8cbf;
 	background-image: url('../images/gridblock-4.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	position: relative;
+}
+.fa{
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+}
+.fa:hover{
+	font-size: 22px;
 }
 .item-5:hover{
 	background-image: url('../images/gridblock-3.jpg');
@@ -244,6 +266,7 @@ background-color: #82ca9c;
 	padding-bottom: 25px;
 	text-align: left;
 }
+
 
 .main__reasons--block{
 	background-color: #82ca9c;
