@@ -156,6 +156,7 @@ text-decoration: none;
 
 .main__grid-item {
 padding: 50px 100px 50px 30px;
+
 }
 
 .item-1{
@@ -170,6 +171,7 @@ background-image: url('../images/gridblock-1.jpg');
 	background-size: cover;
 	background-size: cover;
 	position: relative;
+transition: 0.8s;
 }
 .item-3:hover{
 	background-image: url('../images/gridblock-2.jpg');
@@ -187,6 +189,7 @@ background-color: #bd8cbf;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	transition: 0.8s;
 }
 .fa{
 	position: absolute;
