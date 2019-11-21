@@ -15,6 +15,9 @@ body{
 	text-align: justify;
 	color: #959595;
 overflow-x: hidden;
+quotes: 100%;
+max-width: 1800px;
+margin: 0 auto;
 }
 
 body h3{
@@ -110,9 +113,11 @@ font-size: 13px;
 position: relative;
 }
 .header__img img{
+	width: 50%;
 	position: absolute;
-	top: -575px;
-	right: -63px;
+	right: 0px;
+   bottom: -200px;
+
 }
 
 .main__text{
