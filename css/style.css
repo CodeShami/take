@@ -17,7 +17,7 @@ body{
 overflow-x: hidden;
 quotes: 100%;
 max-width: 1800px;
-margin: 0 auto;
+
 }
 
 body h3{
@@ -38,7 +38,7 @@ body h4{
 	font-weight: 300;
 	line-height: 24px;
 color: #222626;
-	margin: 110px 0 80px;
+	margin: 100px 0 70px;
 }
 
 .main__title h3{
@@ -72,7 +72,6 @@ cursor: pointer;
 	background-size: cover;
 	background-position: center top;
 	width: 100%;
-	min-height: 100vh;
 }
 
 .header__inner,
@@ -115,9 +114,8 @@ position: relative;
 .header__img img{
 	height: 100vh;
 	position: absolute;
-	right: -20px;
-   bottom: -200px;
-
+	right: -15px;
+   bottom: -220px;
 }
 
 .main__text{
@@ -135,7 +133,7 @@ position: relative;
 }
 
 .main__article-2{
-	margin: 80px 0 0 30px;
+	margin: 90px 0 0 30px;
 }
 
 
