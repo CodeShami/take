@@ -118,12 +118,13 @@ position: relative;
 .main__text{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-between;margin-bottom: 110px;
 }
+
+
 .main__article p{
 	font-size: 14px;
 	line-height: 24px;
-	margin-bottom: 30px;
 }
 
 .main__article-2{
