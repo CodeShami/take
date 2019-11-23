@@ -163,8 +163,12 @@ margin: 0 0 30px;
 	padding-right: 50px;
 }
 
+.header__text {
+    margin-top: 25vh;
+}
+
 .header__img img {
-    height: 80vh;
+    height: 65vh;
     left: -120px;
     bottom: -160px;
 }
@@ -261,13 +265,13 @@ margin: 0 0 30px;
 
 
 .header__img img {
-    height: 75vh;
-    left: -85px;
-    bottom: -120px;
+    height: 60vh;
+    left: -120px;
+    bottom: -150px;
 }
 
 .header__text{
-	margin-top: 35vh;
+	margin-top: 20vh;
 }
 
 .main__title h2 {
@@ -391,6 +395,9 @@ margin: 0 0 30px;
     font-size: 43px;
 }
 
+.header__text {
+    margin-top: 10vh;
+}
 
 .header__img img {
     height: 70vh;
@@ -527,6 +534,9 @@ margin: 0 0 30px;
     font-size: 43px;
 }
 
+.header__text {
+    margin-top: 10vh;
+}
 
 .header__img img {
     height: 70vh;
